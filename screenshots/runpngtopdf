@@ -1,0 +1,8 @@
+"${FIGSPATH:=./}"
+for file in $FIGSPATH/*.png
+do
+	t="$(basename -- $file .png)"
+	echo $file
+	echo $t
+	convert $file $FIGSPATH/$t.pdf
+done

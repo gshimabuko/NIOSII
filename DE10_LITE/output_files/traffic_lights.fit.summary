@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon May 11 18:42:48 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : traffic_lights
+Top-level Entity Name : toplevel
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 2,195 / 49,760 ( 4 % )
+    Total combinational functions : 2,015 / 49,760 ( 4 % )
+    Dedicated logic registers : 1,180 / 49,760 ( 2 % )
+Total registers : 1180
+Total pins : 63 / 360 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 651,264 / 1,677,312 ( 39 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )
