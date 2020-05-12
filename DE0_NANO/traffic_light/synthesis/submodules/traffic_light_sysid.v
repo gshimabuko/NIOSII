@@ -49,7 +49,7 @@ module traffic_light_sysid (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1588874598 : 0;
+  assign readdata = address ? 1589251516 : 0;
 
 endmodule
 

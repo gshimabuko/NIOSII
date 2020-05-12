@@ -1,0 +1,40 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst traffic_light.sysid -pg 1 -lvl 2 -y 310
+preplace inst traffic_light.TL_3 -pg 1 -lvl 1 -y 620
+preplace inst traffic_light.HEX_5 -pg 1 -lvl 2 -y 980
+preplace inst traffic_light.clk_0 -pg 1 -lvl 1 -y 220
+preplace inst traffic_light.CPU.cpu -pg 1
+preplace inst traffic_light.timer_0 -pg 1 -lvl 2 -y 130
+preplace inst traffic_light -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst traffic_light.CPU.reset_bridge -pg 1
+preplace inst traffic_light.HEX_0 -pg 1 -lvl 2 -y 580
+preplace inst traffic_light.HEX_1 -pg 1 -lvl 2 -y 680
+preplace inst traffic_light.TL_0 -pg 1 -lvl 1 -y 300
+preplace inst traffic_light.HEX_2 -pg 1 -lvl 2 -y 780
+preplace inst traffic_light.CPU.clock_bridge -pg 1
+preplace inst traffic_light.CODE_MEMORY -pg 1 -lvl 2 -y 230
+preplace inst traffic_light.jtag_uart -pg 1 -lvl 2 -y 30
+preplace inst traffic_light.TL_1 -pg 1 -lvl 1 -y 400
+preplace inst traffic_light.HEX_3 -pg 1 -lvl 2 -y 1080
+preplace inst traffic_light.TL_2 -pg 1 -lvl 1 -y 500
+preplace inst traffic_light.HEX_4 -pg 1 -lvl 2 -y 880
+preplace inst traffic_light.CPU -pg 1 -lvl 1 -y 50
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)clk_0.clk_in,(SLAVE)traffic_light.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)TL_3.external_connection,(SLAVE)traffic_light.tl_3_external_connection) 1 0 1 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.hex_2_external_connection,(SLAVE)HEX_2.external_connection) 1 0 2 NJ 810 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>traffic_light</net_container>(SLAVE)CPU.reset,(SLAVE)sysid.reset,(SLAVE)TL_1.reset,(SLAVE)TL_0.reset,(SLAVE)jtag_uart.reset,(SLAVE)HEX_4.reset,(SLAVE)timer_0.reset,(SLAVE)HEX_2.reset,(MASTER)clk_0.clk_reset,(SLAVE)HEX_0.reset,(SLAVE)TL_3.reset,(SLAVE)HEX_5.reset,(SLAVE)TL_2.reset,(SLAVE)HEX_3.reset,(SLAVE)CODE_MEMORY.reset1,(SLAVE)HEX_1.reset) 1 0 2 240 930 640
+preplace netloc FAN_OUT<net_container>traffic_light</net_container>(MASTER)CPU.irq,(SLAVE)jtag_uart.irq,(SLAVE)timer_0.irq) 1 1 1 660
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.tl_2_external_connection,(SLAVE)TL_2.external_connection) 1 0 1 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)TL_0.external_connection,(SLAVE)traffic_light.tl_0_external_connection) 1 0 1 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)HEX_4.external_connection,(SLAVE)traffic_light.hex_4_external_connection) 1 0 2 NJ 910 NJ
+preplace netloc INTERCONNECT<net_container>traffic_light</net_container>(SLAVE)jtag_uart.avalon_jtag_slave,(MASTER)CPU.instruction_master,(SLAVE)HEX_1.s1,(SLAVE)sysid.control_slave,(SLAVE)timer_0.s1,(SLAVE)TL_1.s1,(SLAVE)HEX_0.s1,(SLAVE)HEX_4.s1,(SLAVE)CODE_MEMORY.s1,(SLAVE)TL_3.s1,(SLAVE)HEX_2.s1,(SLAVE)TL_2.s1,(SLAVE)HEX_3.s1,(SLAVE)CPU.debug_mem_slave,(SLAVE)HEX_5.s1,(SLAVE)TL_0.s1,(MASTER)CPU.data_master) 1 0 2 200 950 600
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.hex_5_external_connection,(SLAVE)HEX_5.external_connection) 1 0 2 NJ 1010 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.hex_1_external_connection,(SLAVE)HEX_1.external_connection) 1 0 2 NJ 730 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.hex_0_external_connection,(SLAVE)HEX_0.external_connection) 1 0 2 NJ 610 NJ
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)HEX_3.external_connection,(SLAVE)traffic_light.hex_3_external_connection) 1 0 2 NJ 1110 NJ
+preplace netloc FAN_OUT<net_container>traffic_light</net_container>(SLAVE)HEX_1.clk,(SLAVE)TL_0.clk,(SLAVE)jtag_uart.clk,(SLAVE)HEX_5.clk,(SLAVE)CODE_MEMORY.clk1,(SLAVE)HEX_0.clk,(SLAVE)sysid.clk,(SLAVE)TL_1.clk,(SLAVE)CPU.clk,(SLAVE)HEX_3.clk,(SLAVE)TL_3.clk,(SLAVE)timer_0.clk,(SLAVE)HEX_4.clk,(MASTER)clk_0.clk,(SLAVE)TL_2.clk,(SLAVE)HEX_2.clk) 1 0 2 220 830 680
+preplace netloc EXPORT<net_container>traffic_light</net_container>(SLAVE)traffic_light.tl_1_external_connection,(SLAVE)TL_1.external_connection) 1 0 1 NJ
+levelinfo -pg 1 0 170 870
+levelinfo -hier traffic_light 180 360 710 860

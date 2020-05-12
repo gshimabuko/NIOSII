@@ -55,7 +55,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 544 256 720 272)
+	(rect 440 256 616 272)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
 	(text "HEX0[7..0]" (rect 5 0 54 13)(font "Intel Clear" ))
 	(pt 176 8)
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 544 296 720 312)
+	(rect 440 296 616 312)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
 	(text "HEX1[7..0]" (rect 5 0 54 13)(font "Intel Clear" ))
 	(pt 176 8)
@@ -127,7 +127,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 448 416 624 432)
+	(rect 544 416 720 432)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
 	(text "HEX4[7..0]" (rect 5 0 54 13)(font "Intel Clear" ))
 	(pt 176 8)
@@ -145,7 +145,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 448 456 624 472)
+	(rect 544 456 720 472)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
 	(text "HEX5[7..0]" (rect 5 0 54 13)(font "Intel Clear" ))
 	(pt 176 8)
@@ -252,30 +252,7 @@ refer to the applicable agreement for further details.
 	(annotation_block (location)(rect 792 512 848 528))
 )
 (symbol
-	(rect 656 440 840 496)
-	(text "sevseg" (rect 149 0 184 11)(font "Arial" ))
-	(text "inst1" (rect 161 40 184 51)(font "Arial" ))
-	(port
-		(pt 184 24)
-		(input)
-		(text "Input[3..0]" (rect 0 -8 50 3)(font "Arial" ))
-		(text "Input[3..0]" (rect 113 19 163 30)(font "Arial" ))
-		(line (pt 184 24)(pt 168 24)(line_width 3))
-	)
-	(port
-		(pt 0 24)
-		(output)
-		(text "Output[7..0]" (rect 0 -8 59 3)(font "Arial" ))
-		(text "Output[7..0]" (rect 11 19 70 30)(font "Arial" ))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 168 40))
-	)
-	(flipy)
-)
-(symbol
-	(rect 656 400 840 456)
+	(rect 632 240 816 296)
 	(text "sevseg" (rect 149 0 184 11)(font "Arial" ))
 	(text "inst2" (rect 161 40 184 51)(font "Arial" ))
 	(port
@@ -318,15 +295,15 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 112)
 		(output)
-		(text "hex_0_external_connection_export[7..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
-		(text "hex_0_external_connection_export[7..0]" (rect 4 101 234 114)(font "Arial" (font_size 8)))
+		(text "hex_0_external_connection_export[3..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
+		(text "hex_0_external_connection_export[3..0]" (rect 4 101 234 114)(font "Arial" (font_size 8)))
 		(line (pt 0 112)(pt 208 112)(line_width 3))
 	)
 	(port
 		(pt 0 152)
 		(output)
-		(text "hex_1_external_connection_export[7..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
-		(text "hex_1_external_connection_export[7..0]" (rect 4 141 234 154)(font "Arial" (font_size 8)))
+		(text "hex_1_external_connection_export[3..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
+		(text "hex_1_external_connection_export[3..0]" (rect 4 141 234 154)(font "Arial" (font_size 8)))
 		(line (pt 0 152)(pt 208 152)(line_width 3))
 	)
 	(port
@@ -346,15 +323,15 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 0 272)
 		(output)
-		(text "hex_4_external_connection_export[3..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
-		(text "hex_4_external_connection_export[3..0]" (rect 4 261 234 274)(font "Arial" (font_size 8)))
+		(text "hex_4_external_connection_export[7..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
+		(text "hex_4_external_connection_export[7..0]" (rect 4 261 234 274)(font "Arial" (font_size 8)))
 		(line (pt 0 272)(pt 208 272)(line_width 3))
 	)
 	(port
 		(pt 0 312)
 		(output)
-		(text "hex_5_external_connection_export[3..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
-		(text "hex_5_external_connection_export[3..0]" (rect 4 301 234 314)(font "Arial" (font_size 8)))
+		(text "hex_5_external_connection_export[7..0]" (rect 0 0 230 13)(font "Arial" (font_size 8)))
+		(text "hex_5_external_connection_export[7..0]" (rect 4 301 234 314)(font "Arial" (font_size 8)))
 		(line (pt 0 312)(pt 208 312)(line_width 3))
 	)
 	(port
@@ -456,19 +433,32 @@ refer to the applicable agreement for further details.
 		(line (pt 0 0)(pt 0 584))
 	)
 )
+(symbol
+	(rect 632 280 816 336)
+	(text "sevseg" (rect 149 0 184 11)(font "Arial" ))
+	(text "inst1" (rect 161 40 184 51)(font "Arial" ))
+	(port
+		(pt 184 24)
+		(input)
+		(text "Input[3..0]" (rect 0 -8 50 3)(font "Arial" ))
+		(text "Input[3..0]" (rect 113 19 163 30)(font "Arial" ))
+		(line (pt 184 24)(pt 168 24)(line_width 3))
+	)
+	(port
+		(pt 0 24)
+		(output)
+		(text "Output[7..0]" (rect 0 -8 59 3)(font "Arial" ))
+		(text "Output[7..0]" (rect 11 19 70 30)(font "Arial" ))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 40))
+	)
+	(flipy)
+)
 (connector
 	(pt 872 224)
 	(pt 720 224)
-)
-(connector
-	(pt 872 264)
-	(pt 720 264)
-	(bus)
-)
-(connector
-	(pt 720 304)
-	(pt 872 304)
-	(bus)
 )
 (connector
 	(pt 720 344)
@@ -510,22 +500,32 @@ refer to the applicable agreement for further details.
 	(pt 720 504)
 )
 (connector
-	(pt 872 464)
-	(pt 840 464)
+	(pt 872 264)
+	(pt 816 264)
 	(bus)
 )
 (connector
-	(pt 656 464)
-	(pt 624 464)
+	(pt 632 264)
+	(pt 616 264)
+	(bus)
+)
+(connector
+	(pt 616 304)
+	(pt 632 304)
+	(bus)
+)
+(connector
+	(pt 816 304)
+	(pt 872 304)
 	(bus)
 )
 (connector
 	(pt 872 424)
-	(pt 840 424)
+	(pt 720 424)
 	(bus)
 )
 (connector
-	(pt 656 424)
-	(pt 624 424)
+	(pt 872 464)
+	(pt 720 464)
 	(bus)
 )

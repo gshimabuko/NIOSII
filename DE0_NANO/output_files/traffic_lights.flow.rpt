@@ -1,5 +1,5 @@
 Flow report for traffic_lights
-Mon May 11 18:49:02 2020
+Tue May 12 14:51:06 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon May 11 18:49:02 2020       ;
+; Flow Status                        ; Successful - Tue May 12 14:51:06 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; traffic_lights                              ;
 ; Top-level Entity Name              ; toplevel                                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 3,438 / 22,320 ( 15 % )                     ;
-;     Total combinational functions  ; 2,567 / 22,320 ( 12 % )                     ;
+; Total logic elements               ; 3,445 / 22,320 ( 15 % )                     ;
+;     Total combinational functions  ; 2,561 / 22,320 ( 11 % )                     ;
 ;     Dedicated logic registers      ; 2,296 / 22,320 ( 10 % )                     ;
 ; Total registers                    ; 2296                                        ;
 ; Total pins                         ; 63 / 154 ( 41 % )                           ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/11/2020 18:47:41 ;
+; Start date & time ; 05/12/2020 14:49:46 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; traffic_lights      ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+---------------+------------------+
 ; Assignment Name                     ; Value                                                                                                                                                                                                                                                ; Default Value  ; Entity Name   ; Section Id       ;
 +-------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------+---------------+------------------+
-; COMPILER_SIGNATURE_ID               ; 88750193771171.158923366104288                                                                                                                                                                                                                       ; --             ; --            ; --               ;
+; COMPILER_SIGNATURE_ID               ; 88750193771171.158930578610449                                                                                                                                                                                                                       ; --             ; --            ; --               ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                                                                                                                                                                                            ; <None>         ; --            ; --               ;
 ; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                                                                                                   ; --             ; --            ; --               ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                                                                                                                                                                   ; --             ; --            ; --               ;
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ; SLD_FILE                            ; traffic_light/synthesis/traffic_light.regmap                                                                                                                                                                                                         ; --             ; --            ; --               ;
 ; SLD_FILE                            ; traffic_light/synthesis/traffic_light.debuginfo                                                                                                                                                                                                      ; --             ; --            ; --               ;
 ; SLD_FILE                            ; db/stp1_auto_stripped.stp                                                                                                                                                                                                                            ; --             ; --            ; --               ;
-; SLD_INFO                            ; QSYS_NAME traffic_light HAS_SOPCINFO 1 GENERATION_ID 1588874598                                                                                                                                                                                      ; --             ; traffic_light ; --               ;
+; SLD_INFO                            ; QSYS_NAME traffic_light HAS_SOPCINFO 1 GENERATION_ID 1589251516                                                                                                                                                                                      ; --             ; traffic_light ; --               ;
 ; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                                                                                                  ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                                                                              ; --             ; --            ; auto_signaltap_0 ;
@@ -110,15 +110,15 @@ refer to the applicable agreement for further details.
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_PIPELINE=0                                                                                                                                                                                                                               ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_PIPELINE=0                                                                                                                                                                                                                                   ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_COUNTER_PIPELINE=0                                                                                                                                                                                                                               ; --             ; --            ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                                                                                 ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                                                                                         ; --             ; --            ; auto_signaltap_0 ;
-; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=68                                                                                                                                                                                                                                     ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=68                                                                                                                                                                                                                                  ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=68                                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --             ; --            ; auto_signaltap_0 ;
 ; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=225                                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                                                                                 ; --             ; --            ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                                                                        ; --             ; --            ; auto_signaltap_0 ;
 ; SOPCINFO_FILE                       ; traffic_light/synthesis/../../traffic_light.sopcinfo                                                                                                                                                                                                 ; --             ; --            ; --               ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                                                                                                                                                                                                                   ; --             ; --            ; --               ;
 ; TOP_LEVEL_ENTITY                    ; toplevel                                                                                                                                                                                                                                             ; traffic_lights ; --            ; --               ;
@@ -131,12 +131,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:44     ; 1.0                     ; 1127 MB             ; 00:01:17                           ;
-; Fitter               ; 00:00:16     ; 1.1                     ; 1552 MB             ; 00:00:21                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 813 MB              ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.2                     ; 893 MB              ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:07     ; 1.0                     ; 1081 MB             ; 00:00:07                           ;
-; Total                ; 00:01:12     ; --                      ; --                  ; 00:01:52                           ;
+; Analysis & Synthesis ; 00:00:40     ; 1.0                     ; 1135 MB             ; 00:01:16                           ;
+; Fitter               ; 00:00:18     ; 1.1                     ; 1558 MB             ; 00:00:22                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 812 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 890 MB              ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:08     ; 1.0                     ; 1084 MB             ; 00:00:08                           ;
+; Total                ; 00:01:13     ; --                      ; --                  ; 00:01:53                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

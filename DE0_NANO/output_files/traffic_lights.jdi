@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="5c527ad36eb4c22775ef"/>
+    <hash md5_digest_80b="05791788b1ff820d3734"/>
   </project>
   <file_info>
     <file device="EP4CE22F17C6" path="traffic_lights.sof" usercode="0xFFFFFFFF"/>
@@ -202,7 +202,7 @@
   <sld_infos>
     <sld_info hpath="traffic_light:inst" name="inst">
       <assignment_values>
-        <assignment_value text="QSYS_NAME traffic_light HAS_SOPCINFO 1 GENERATION_ID 1588874598"/>
+        <assignment_value text="QSYS_NAME traffic_light HAS_SOPCINFO 1 GENERATION_ID 1589251516"/>
       </assignment_values>
       <parameters/>
     </sld_info>

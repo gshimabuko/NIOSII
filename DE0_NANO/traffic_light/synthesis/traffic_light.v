@@ -5,12 +5,12 @@
 `timescale 1 ps / 1 ps
 module traffic_light (
 		input  wire       clk_clk,                          //                       clk.clk
-		output wire [7:0] hex_0_external_connection_export, // hex_0_external_connection.export
-		output wire [7:0] hex_1_external_connection_export, // hex_1_external_connection.export
+		output wire [3:0] hex_0_external_connection_export, // hex_0_external_connection.export
+		output wire [3:0] hex_1_external_connection_export, // hex_1_external_connection.export
 		output wire [7:0] hex_2_external_connection_export, // hex_2_external_connection.export
 		output wire [7:0] hex_3_external_connection_export, // hex_3_external_connection.export
-		output wire [3:0] hex_4_external_connection_export, // hex_4_external_connection.export
-		output wire [3:0] hex_5_external_connection_export, // hex_5_external_connection.export
+		output wire [7:0] hex_4_external_connection_export, // hex_4_external_connection.export
+		output wire [7:0] hex_5_external_connection_export, // hex_5_external_connection.export
 		output wire       led_external_connection_export,   //   led_external_connection.export
 		input  wire       reset_reset_n,                    //                     reset.reset_n
 		output wire [2:0] tl_0_external_connection_export,  //  tl_0_external_connection.export
@@ -186,7 +186,7 @@ module traffic_light (
 		.out_port   (hex_1_external_connection_export)       // external_connection.export
 	);
 
-	traffic_light_HEX_0 hex_2 (
+	traffic_light_HEX_2 hex_2 (
 		.clk        (clk_clk),                               //                 clk.clk
 		.reset_n    (~rst_controller_reset_out_reset),       //               reset.reset_n
 		.address    (mm_interconnect_0_hex_2_s1_address),    //                  s1.address
@@ -197,7 +197,7 @@ module traffic_light (
 		.out_port   (hex_2_external_connection_export)       // external_connection.export
 	);
 
-	traffic_light_HEX_0 hex_3 (
+	traffic_light_HEX_2 hex_3 (
 		.clk        (clk_clk),                               //                 clk.clk
 		.reset_n    (~rst_controller_reset_out_reset),       //               reset.reset_n
 		.address    (mm_interconnect_0_hex_3_s1_address),    //                  s1.address
@@ -208,7 +208,7 @@ module traffic_light (
 		.out_port   (hex_3_external_connection_export)       // external_connection.export
 	);
 
-	traffic_light_HEX_4 hex_4 (
+	traffic_light_HEX_2 hex_4 (
 		.clk        (clk_clk),                               //                 clk.clk
 		.reset_n    (~rst_controller_reset_out_reset),       //               reset.reset_n
 		.address    (mm_interconnect_0_hex_4_s1_address),    //                  s1.address
@@ -219,7 +219,7 @@ module traffic_light (
 		.out_port   (hex_4_external_connection_export)       // external_connection.export
 	);
 
-	traffic_light_HEX_4 hex_5 (
+	traffic_light_HEX_2 hex_5 (
 		.clk        (clk_clk),                               //                 clk.clk
 		.reset_n    (~rst_controller_reset_out_reset),       //               reset.reset_n
 		.address    (mm_interconnect_0_hex_5_s1_address),    //                  s1.address
