@@ -1,16 +1,13 @@
 Quartus Prime Archive log --	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qarlog
 
 Archive:	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qar
-Date:		Wed May 13 14:47:00 2020
+Date:		Sun May 17 00:22:28 2020
 Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 	=========== Files Selected: ===========
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/RTL/VHDL/src/sevseg.vhd
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/RTL/VHDL/src/sevseg_pkg.vhd
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/assignment_defaults.qdf
-/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/db/stp2_auto_stripped.stp
-/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/output_files/stp1.stp
-/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/stp2.stp
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light.qsys
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light.sopcinfo
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/altera_avalon_sc_fifo.v
@@ -65,7 +62,7 @@ Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/traffic_light.cmp
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_lights.qpf
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_lights.qsf
-	======= Total: 60 files to archive =======
+	======= Total: 57 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.

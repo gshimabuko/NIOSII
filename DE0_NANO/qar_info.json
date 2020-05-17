@@ -1,7 +1,0 @@
-{
-	"common_dir" : "/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/",
-	"acds_version" : "Version 18.1.0",
-	"platform" : "linux",
-	"os" : "Arch Linux",
-	"qpf" : "traffic_lights.qpf"
-}

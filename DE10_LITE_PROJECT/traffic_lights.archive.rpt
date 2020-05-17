@@ -1,5 +1,5 @@
 Archive Project report for traffic_lights
-Wed May 13 14:47:01 2020
+Sun May 17 00:22:28 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Wed May 13 14:47:01 2020 ;
+; Archive Project Status ; Successful - Sun May 17 00:22:28 2020 ;
 ; Revision Name          ; traffic_lights                        ;
 ; Top-level Entity Name  ; toplevel                              ;
 ; Family                 ; MAX 10                                ;
@@ -59,9 +59,9 @@ Info: ----------------------------------------------------------
 Info: Generated report 'traffic_lights.archive.rpt'
 Info (23030): Evaluation of Tcl script /opt/Quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1043 megabytes
-    Info: Processing ended: Wed May 13 14:47:01 2020
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 1040 megabytes
+    Info: Processing ended: Sun May 17 00:22:28 2020
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 
@@ -71,11 +71,8 @@ Info: Quartus Prime Shell was successful. 0 errors, 1 warning
 ; File Name                                                                                               ;
 +---------------------------------------------------------------------------------------------------------+
 ; assignment_defaults.qdf                                                                                 ;
-; db/stp2_auto_stripped.stp                                                                               ;
-; output_files/stp1.stp                                                                                   ;
 ; RTL/VHDL/src/sevseg.vhd                                                                                 ;
 ; RTL/VHDL/src/sevseg_pkg.vhd                                                                             ;
-; stp2.stp                                                                                                ;
 ; traffic_light/synthesis/../../traffic_light.qsys                                                        ;
 ; traffic_light/synthesis/../../traffic_light.sopcinfo                                                    ;
 ; traffic_light/synthesis/../traffic_light.cmp                                                            ;
