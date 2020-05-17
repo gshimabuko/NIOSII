@@ -240,7 +240,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "MAX10_CLK1_50",
 					"strict" : false
 				},
 				{

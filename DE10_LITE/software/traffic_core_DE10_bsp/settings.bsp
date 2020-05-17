@@ -2,10 +2,10 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>13/05/2020 10:42:23</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1589377343705</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>17/05/2020 00:18:32</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1589685512364</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/software/traffic_core_DE10_bsp</BspGeneratedLocation>
-        <BspSettingsFile>./settings.bsp</BspSettingsFile>
+        <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../traffic_light.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>CPU</Cpu>
