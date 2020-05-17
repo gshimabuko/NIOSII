@@ -47,6 +47,8 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 
 set_location_assignment PIN_P11 -to MAX10_CLK1_50
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MAX10_CLK1_50
+set_location_assignment PIN_C10 -to SW[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[0]
 
 set_location_assignment PIN_U17 -to DRAM_ADDR[0]
 set_location_assignment PIN_W19 -to DRAM_ADDR[1]

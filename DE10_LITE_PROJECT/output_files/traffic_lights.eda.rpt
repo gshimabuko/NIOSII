@@ -1,5 +1,5 @@
 EDA Netlist Writer report for traffic_lights
-Sun May 17 00:17:16 2020
+Sun May 17 00:45:22 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun May 17 00:17:16 2020 ;
+; EDA Netlist Writer Status ; Successful - Sun May 17 00:45:22 2020 ;
 ; Revision Name             ; traffic_lights                        ;
 ; Top-level Entity Name     ; toplevel                              ;
 ; Family                    ; MAX 10                                ;
@@ -66,13 +66,13 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                       ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                  ;
-+----------------------------------------------------------------------------------------------------------------------------------+
-; /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/simulation/modelsim/traffic_lights.vo ;
-+----------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                               ;
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                          ;
++------------------------------------------------------------------------------------------------------------------------------------------+
+; /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE_PROJECT/simulation/modelsim/traffic_lights.vo ;
++------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,15 +81,15 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun May 17 00:17:13 2020
+    Info: Processing started: Sun May 17 00:45:19 2020
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off traffic_lights -c traffic_lights
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
-Info (204019): Generated file traffic_lights.vo in folder "/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file traffic_lights.vo in folder "/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE_PROJECT/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 1120 megabytes
-    Info: Processing ended: Sun May 17 00:17:16 2020
+    Info: Peak virtual memory: 1115 megabytes
+    Info: Processing ended: Sun May 17 00:45:22 2020
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

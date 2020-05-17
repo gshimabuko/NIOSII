@@ -1,5 +1,5 @@
 Archive Project report for traffic_lights
-Sun May 17 00:22:28 2020
+Sun May 17 00:45:48 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Sun May 17 00:22:28 2020 ;
+; Archive Project Status ; Successful - Sun May 17 00:45:48 2020 ;
 ; Revision Name          ; traffic_lights                        ;
 ; Top-level Entity Name  ; toplevel                              ;
 ; Family                 ; MAX 10                                ;
@@ -50,7 +50,7 @@ Info: File Set 'Source control' contains:
     Info: Automatically detected source files
 Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
 Info: Archive will store files relative to the closest common parent directory
-Info (13213): Using common directory /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/
+Info (13213): Using common directory /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE_PROJECT/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated archive '/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qar'
@@ -59,8 +59,8 @@ Info: ----------------------------------------------------------
 Info: Generated report 'traffic_lights.archive.rpt'
 Info (23030): Evaluation of Tcl script /opt/Quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1040 megabytes
-    Info: Processing ended: Sun May 17 00:22:28 2020
+    Info: Peak virtual memory: 1043 megabytes
+    Info: Processing ended: Sun May 17 00:45:48 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
