@@ -1,14 +1,16 @@
 Quartus Prime Archive log --	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qarlog
 
 Archive:	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qar
-Date:		Mon May 11 17:26:13 2020
+Date:		Wed May 13 14:47:00 2020
 Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 	=========== Files Selected: ===========
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/RTL/VHDL/src/sevseg.vhd
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/RTL/VHDL/src/sevseg_pkg.vhd
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/assignment_defaults.qdf
+/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/db/stp2_auto_stripped.stp
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/output_files/stp1.stp
+/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/stp2.stp
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light.qsys
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light.sopcinfo
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/altera_avalon_sc_fifo.v
@@ -34,7 +36,7 @@ Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_CPU_cpu_rf_ram_b.mif
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_CPU_cpu_test_bench.v
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_HEX_0.v
-/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_HEX_4.v
+/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_HEX_2.v
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_LED.v
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_TL_0.v
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/synthesis/submodules/traffic_light_irq_mapper.sv
@@ -63,13 +65,7 @@ Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_light/traffic_light.cmp
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_lights.qpf
 /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/traffic_lights.qsf
-	======= Total: 58 files to archive =======
+	======= Total: 60 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.
-
-
-******* Archived project restoration attempt on Mon May 11 17:28:24 2020
-Source archive file:	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE.qar
-Archive was extracted into	/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/
-		 - successfully.

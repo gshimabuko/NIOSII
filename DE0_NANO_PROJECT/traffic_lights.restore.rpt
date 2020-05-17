@@ -1,0 +1,133 @@
+Restore Archived Project report for traffic_lights
+Mon May 11 18:43:36 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon May 11 18:43:36 2020 ;
+; Revision Name                   ; traffic_lights                        ;
+; Top-level Entity Name           ; toplevel                              ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE10_LITE/DE10_LITE.qar' into the 'DE0_NANO/' directory
+Info: Generated report 'traffic_lights.restore.rpt'
+Info (23030): Evaluation of Tcl script /opt/Quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 1027 megabytes
+    Info: Processing ended: Mon May 11 18:43:36 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++---------------------------------------------------------------------------------------------------------+
+; Files Restored                                                                                          ;
++---------------------------------------------------------------------------------------------------------+
+; File Name                                                                                               ;
++---------------------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                           ;
+; RTL/VHDL/src/sevseg.vhd                                                                                 ;
+; RTL/VHDL/src/sevseg_pkg.vhd                                                                             ;
+; db/stp1_auto_stripped.stp                                                                               ;
+; output_files/stp1.stp                                                                                   ;
+; traffic_light.qsys                                                                                      ;
+; traffic_light.sopcinfo                                                                                  ;
+; traffic_light/synthesis/submodules/altera_avalon_sc_fifo.v                                              ;
+; traffic_light/synthesis/submodules/altera_merlin_arbitrator.sv                                          ;
+; traffic_light/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                  ;
+; traffic_light/synthesis/submodules/altera_merlin_master_agent.sv                                        ;
+; traffic_light/synthesis/submodules/altera_merlin_master_translator.sv                                   ;
+; traffic_light/synthesis/submodules/altera_merlin_slave_agent.sv                                         ;
+; traffic_light/synthesis/submodules/altera_merlin_slave_translator.sv                                    ;
+; traffic_light/synthesis/submodules/altera_reset_controller.sdc                                          ;
+; traffic_light/synthesis/submodules/altera_reset_controller.v                                            ;
+; traffic_light/synthesis/submodules/altera_reset_synchronizer.v                                          ;
+; traffic_light/synthesis/submodules/traffic_light_CODE_MEMORY.hex                                        ;
+; traffic_light/synthesis/submodules/traffic_light_CODE_MEMORY.v                                          ;
+; traffic_light/synthesis/submodules/traffic_light_CPU.v                                                  ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu.sdc                                            ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu.v                                              ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_debug_slave_sysclk.v                           ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_debug_slave_tck.v                              ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_debug_slave_wrapper.v                          ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_ociram_default_contents.mif                    ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_rf_ram_a.mif                                   ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_rf_ram_b.mif                                   ;
+; traffic_light/synthesis/submodules/traffic_light_CPU_cpu_test_bench.v                                   ;
+; traffic_light/synthesis/submodules/traffic_light_HEX_0.v                                                ;
+; traffic_light/synthesis/submodules/traffic_light_HEX_4.v                                                ;
+; traffic_light/synthesis/submodules/traffic_light_LED.v                                                  ;
+; traffic_light/synthesis/submodules/traffic_light_TL_0.v                                                 ;
+; traffic_light/synthesis/submodules/traffic_light_irq_mapper.sv                                          ;
+; traffic_light/synthesis/submodules/traffic_light_jtag_uart.v                                            ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0.v                                    ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_avalon_st_adapter.v                  ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_cmd_demux.sv                         ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_cmd_demux_001.sv                     ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_cmd_mux.sv                           ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_cmd_mux_002.sv                       ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_router.sv                            ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_router_001.sv                        ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_router_002.sv                        ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_router_004.sv                        ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_rsp_demux.sv                         ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_rsp_mux.sv                           ;
+; traffic_light/synthesis/submodules/traffic_light_mm_interconnect_0_rsp_mux_001.sv                       ;
+; traffic_light/synthesis/submodules/traffic_light_sysid.v                                                ;
+; traffic_light/synthesis/submodules/traffic_light_timer_0.v                                              ;
+; traffic_light/synthesis/toplevel.bdf                                                                    ;
+; traffic_light/synthesis/traffic_light.debuginfo                                                         ;
+; traffic_light/synthesis/traffic_light.qip                                                               ;
+; traffic_light/synthesis/traffic_light.regmap                                                            ;
+; traffic_light/synthesis/traffic_light.v                                                                 ;
+; traffic_light/traffic_light.cmp                                                                         ;
+; traffic_lights.qpf                                                                                      ;
+; traffic_lights.qsf                                                                                      ;
+; assignment_defaults.qdf                                                                                 ;
++---------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

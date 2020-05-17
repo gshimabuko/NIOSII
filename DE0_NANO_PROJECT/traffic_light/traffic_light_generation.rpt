@@ -1,0 +1,183 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light.qsys --block-symbol-file --output-directory=/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading DE0_NANO/traffic_light.qsys
+Progress: Reading input file
+Progress: Adding CODE_MEMORY [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module CODE_MEMORY
+Progress: Adding CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module CPU
+Progress: Adding HEX_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_0
+Progress: Adding HEX_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_1
+Progress: Adding HEX_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_2
+Progress: Adding HEX_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_3
+Progress: Adding HEX_4 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_4
+Progress: Adding HEX_5 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_5
+Progress: Adding LED [altera_avalon_pio 18.1]
+Progress: Parameterizing module LED
+Progress: Adding TL_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_0
+Progress: Adding TL_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_1
+Progress: Adding TL_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_2
+Progress: Adding TL_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_3
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: traffic_light.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: traffic_light.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: traffic_light.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light.qsys --synthesis=VERILOG --output-directory=/home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light/synthesis --family="Cyclone IV E" --part=EP4CE22F17C6
+Progress: Loading DE0_NANO/traffic_light.qsys
+Progress: Reading input file
+Progress: Adding CODE_MEMORY [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module CODE_MEMORY
+Progress: Adding CPU [altera_nios2_gen2 18.1]
+Progress: Parameterizing module CPU
+Progress: Adding HEX_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_0
+Progress: Adding HEX_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_1
+Progress: Adding HEX_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_2
+Progress: Adding HEX_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_3
+Progress: Adding HEX_4 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_4
+Progress: Adding HEX_5 [altera_avalon_pio 18.1]
+Progress: Parameterizing module HEX_5
+Progress: Adding LED [altera_avalon_pio 18.1]
+Progress: Parameterizing module LED
+Progress: Adding TL_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_0
+Progress: Adding TL_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_1
+Progress: Adding TL_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_2
+Progress: Adding TL_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module TL_3
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding sysid [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: traffic_light.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: traffic_light.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: traffic_light.sysid: Time stamp will be automatically updated when this component is generated.
+Info: traffic_light: Generating traffic_light "traffic_light" for QUARTUS_SYNTH
+Info: CODE_MEMORY: Starting RTL generation for module 'traffic_light_CODE_MEMORY'
+Info: CODE_MEMORY:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=traffic_light_CODE_MEMORY --dir=/tmp/alt8394_1153848113926247312.dir/0002_CODE_MEMORY_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0002_CODE_MEMORY_gen//traffic_light_CODE_MEMORY_component_configuration.pl  --do_build_sim=0  ]
+Info: CODE_MEMORY: Done RTL generation for module 'traffic_light_CODE_MEMORY'
+Info: CODE_MEMORY: "traffic_light" instantiated altera_avalon_onchip_memory2 "CODE_MEMORY"
+Info: CPU: "traffic_light" instantiated altera_nios2_gen2 "CPU"
+Info: HEX_0: Starting RTL generation for module 'traffic_light_HEX_0'
+Info: HEX_0:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=traffic_light_HEX_0 --dir=/tmp/alt8394_1153848113926247312.dir/0003_HEX_0_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0003_HEX_0_gen//traffic_light_HEX_0_component_configuration.pl  --do_build_sim=0  ]
+Info: HEX_0: Done RTL generation for module 'traffic_light_HEX_0'
+Info: HEX_0: "traffic_light" instantiated altera_avalon_pio "HEX_0"
+Info: HEX_2: Starting RTL generation for module 'traffic_light_HEX_2'
+Info: HEX_2:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=traffic_light_HEX_2 --dir=/tmp/alt8394_1153848113926247312.dir/0004_HEX_2_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0004_HEX_2_gen//traffic_light_HEX_2_component_configuration.pl  --do_build_sim=0  ]
+Info: HEX_2: Done RTL generation for module 'traffic_light_HEX_2'
+Info: HEX_2: "traffic_light" instantiated altera_avalon_pio "HEX_2"
+Info: LED: Starting RTL generation for module 'traffic_light_LED'
+Info: LED:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=traffic_light_LED --dir=/tmp/alt8394_1153848113926247312.dir/0005_LED_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0005_LED_gen//traffic_light_LED_component_configuration.pl  --do_build_sim=0  ]
+Info: LED: Done RTL generation for module 'traffic_light_LED'
+Info: LED: "traffic_light" instantiated altera_avalon_pio "LED"
+Info: TL_0: Starting RTL generation for module 'traffic_light_TL_0'
+Info: TL_0:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=traffic_light_TL_0 --dir=/tmp/alt8394_1153848113926247312.dir/0006_TL_0_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0006_TL_0_gen//traffic_light_TL_0_component_configuration.pl  --do_build_sim=0  ]
+Info: TL_0: Done RTL generation for module 'traffic_light_TL_0'
+Info: TL_0: "traffic_light" instantiated altera_avalon_pio "TL_0"
+Info: jtag_uart: Starting RTL generation for module 'traffic_light_jtag_uart'
+Info: jtag_uart:   Generation command is [exec /opt/Quartus/quartus/linux64/perl/bin/perl -I /opt/Quartus/quartus/linux64/perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=traffic_light_jtag_uart --dir=/tmp/alt8394_1153848113926247312.dir/0007_jtag_uart_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0007_jtag_uart_gen//traffic_light_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'traffic_light_jtag_uart'
+Info: jtag_uart: "traffic_light" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: sysid: "traffic_light" instantiated altera_avalon_sysid_qsys "sysid"
+Info: timer_0: Starting RTL generation for module 'traffic_light_timer_0'
+Info: timer_0:   Generation command is [exec /opt/Quartus/quartus/linux64//perl/bin/perl -I /opt/Quartus/quartus/linux64//perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/common -I /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /opt/Quartus/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=traffic_light_timer_0 --dir=/tmp/alt8394_1153848113926247312.dir/0009_timer_0_gen/ --quartus_dir=/opt/Quartus/quartus --verilog --config=/tmp/alt8394_1153848113926247312.dir/0009_timer_0_gen//traffic_light_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'traffic_light_timer_0'
+Info: timer_0: "traffic_light" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "traffic_light" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "traffic_light" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "traffic_light" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'traffic_light_CPU_cpu'
+Info: cpu:   Generation command is [exec /opt/Quartus/quartus/linux64//eperlcmd -I /opt/Quartus/quartus/linux64//perl/lib -I /opt/Quartus/quartus/sopc_builder/bin/europa -I /opt/Quartus/quartus/sopc_builder/bin/perl_lib -I /opt/Quartus/quartus/sopc_builder/bin -I /opt/Quartus/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /opt/Quartus/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /opt/Quartus/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /opt/Quartus/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /opt/Quartus/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=traffic_light_CPU_cpu --dir=/tmp/alt8394_1153848113926247312.dir/0012_cpu_gen/ --quartus_bindir=/opt/Quartus/quartus/linux64/ --verilog --config=/tmp/alt8394_1153848113926247312.dir/0012_cpu_gen//traffic_light_CPU_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2020.05.11 23:45:28 (*) Starting Nios II generation
+Info: cpu: # 2020.05.11 23:45:28 (*)   Checking for plaintext license.
+Info: cpu: # 2020.05.11 23:45:29 (*)   Couldn't query license setup in Quartus directory /opt/Quartus/quartus/linux64/
+Info: cpu: # 2020.05.11 23:45:29 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.05.11 23:45:29 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2020.05.11 23:45:29 (*)   Plaintext license not found.
+Info: cpu: # 2020.05.11 23:45:29 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.05.11 23:45:29 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.05.11 23:45:29 (*)   Creating all objects for CPU
+Info: cpu: # 2020.05.11 23:45:30 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.05.11 23:45:30 (*)   Creating plain-text RTL
+Info: cpu: # 2020.05.11 23:45:31 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'traffic_light_CPU_cpu'
+Info: cpu: "CPU" instantiated altera_nios2_gen2_unit "cpu"
+Info: CPU_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "CPU_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: CPU_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "CPU_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/gshimabuko/Documents/Estudo/Coursera/Expanded_Nios_Training/Traffic_Lights/DE0_NANO/traffic_light/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: traffic_light: Done "traffic_light" with 32 modules, 45 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
